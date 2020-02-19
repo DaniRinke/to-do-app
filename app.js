@@ -34,7 +34,7 @@ function onReady() {
       const deleteBtn = document.createElement('button');
       deleteBtn.textContent = "Delete";
 
-      deleteBtn.addEventListner('click', event => {
+      deleteBtn.addEventListener('click', event => {
         toDos = toDos.filter(function(item){
           return item.id !== toDo.id;
         })
