@@ -1,6 +1,6 @@
 function onReady() {
- const toDos = [];
- const addToDoForm = document.getElementById('addToDoForm');
+ let toDos = [];
+ let addToDoForm = document.getElementById('addToDoForm');
  let id = 0;
 
  function createNewToDo() {
@@ -31,7 +31,7 @@ function onReady() {
       const checkbox = document.createElement('input');
       checkbox.type = "checkbox";
 
-      const deleteBtn = document.createElement('button');
+      let deleteBtn = document.createElement('button');
       deleteBtn.textContent = "Delete";
 
       deleteBtn.addEventListener('click', event => {
