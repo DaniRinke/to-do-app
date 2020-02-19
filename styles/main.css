@@ -1,0 +1,37 @@
+h1 {
+  color: LightBlue;
+  font-weight:Bold;
+  font-size: 60px;
+  text-align: center;
+}
+label {
+  color:DarkBlue;
+  font-weight:Lighter;
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  color:DarkBlue;
+  font-weight:Bold;
+  font-size: 20px;
+  text-align: left;
+
+}
+
+input {
+  color:DarkBlue;
+  font-weight:Bold;
+  font-size: 20px;
+  text-align: left;
+}
+
+body{
+  text-align: center;
+}
+ul{
+  color:DarkBlue;
+  font-weight:Bold;
+  font-size: 20px;
+  text-align: center;
+}
